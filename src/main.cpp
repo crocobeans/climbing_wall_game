@@ -77,7 +77,7 @@ void loop() {
         break;
       }
 
-      digitalWrite(8,LOW);
+//      digitalWrite(8,LOW);
 
     }
 
