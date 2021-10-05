@@ -9,8 +9,6 @@ bool gameState = false;
 
 void setup() {
 
-  Serial.begin(9600);
-
   pinMode(LED_BUILTIN, OUTPUT);
 
   for(int i =2 ; i<=8 ; i++){
@@ -80,9 +78,6 @@ void loop() {
       }
 
       digitalWrite(8,LOW);
-
-      Serial.println(count);
-
 
     }
 
